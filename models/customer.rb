@@ -39,10 +39,5 @@ class Customer
      values = [@id]
      SqlRunner.run(sql, values)
    end
-   #{} def self.all()  sql = "SELECT * FROM customers"
-  #   customers = SqlRunner.run(sql)
-  #   result = customers.map
-  #
-  #
-  # end
+  
 end
