@@ -2,9 +2,6 @@ DROP TABLE tickets;
 DROP TABLE customers;
 DROP TABLE films;
 
-
-
-
 CREATE TABLE customers(
   id SERIAL PRIMARY KEY,
   name VARCHAR,
