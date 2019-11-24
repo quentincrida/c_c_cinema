@@ -34,8 +34,15 @@ end
     values = [@id]
     SqlRunner.run(sql, values)
 
-
   end
-
+#show films a customer has booked to see
+# def show_film_by_customer()
+#   sql = "SELECT films.* FROM films INNER JOIN tickets ON tickets.film_id = films.id WHERE customer_id = $1;"
+#   values = [@id]
+#   customers = SqlRunner.new(sql, values)
+#   result = customers.map{|customer| Customer.new(customer) }
+#   return result
+#
+# end
 
 end
